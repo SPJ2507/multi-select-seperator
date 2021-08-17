@@ -1,0 +1,202 @@
+/**
+*  Multiselect seperator css
+*
+*  @author Sivaprasad J <sj@lbit.in>
+*/
+
+.multiselect-sep-top-div {
+  padding: .5rem;
+  min-height: 35px;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.multiselect-sep-hidden-accesible-div {
+  height: 0;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  /* visibility: hidden; */
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  float: right;
+}
+
+.multiselect-sep-hidden-accesible-input {
+  padding: 0;
+  border: 0;
+  color: transparent;
+  /* width: 1px; */
+  cursor: default;
+  position: absolute;
+  opacity: 0;
+  /* visibility: unset; */
+  /* z-index: 01; */
+  /* position: unset;*/
+}
+
+.muliti-sep-selector {
+  visibility: hidden;
+  position: absolute;
+}
+
+.muliti-sep-input-hidden {
+  visibility: hidden;
+  position: absolute;
+}
+
+.dspl-contents {
+  display: contents;
+}
+
+.dspl-show {
+  display: inline;
+  padding: 2px;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.input-div,
+.multi-sep-initial-input-div {
+  cursor: text;
+}
+
+.input-div > input,
+.multi-sep-initial-input,
+.multi-sep-initial-input-field {
+  border: none;
+  text-align: center;
+  cursor: text;
+}
+
+.div-ul {
+  min-height: 24px;
+  max-height: 250px;
+  overflow: scroll;
+  background-color: white;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  position: absolute;
+  z-index: 1051;
+  max-width: -webkit-fill-available;
+  max-width: -moz-available;
+  max-width: stretch;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: stretch;
+}
+
+.multi-sep-span-close {
+  font-size: 14px;
+  padding-right: 4px;
+  padding-left: 3px;
+  border-right: 1px solid white;
+  margin-right: 3px;
+}
+
+.multiselect-sep-ul {
+  display: contents;
+  list-style: none;
+}
+
+.multiselect-sep-li {
+  padding: 7px;
+  padding: 7px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.selected {
+  background-color: lightgray;
+}
+
+.multiselect-sep-li:hover {
+  background-color: #5897fb;
+  color: white;
+  text-decoration: none;
+}
+
+.muliti-sep-span {
+  padding: 3px;
+  padding: 3px;
+  cursor: pointer;
+  overflow: hidden;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-box;
+  display: inline-flex;
+  background-color: #5897fb;
+  color: white;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  margin-top: 5px;
+  max-width: 112px;
+  white-space: nowrap;
+  margin-bottom: 5px;
+  text-overflow: ellipsis;
+}
+
+.muliti-sep-result-inputs {
+  visibility: hidden;
+  position: absolute;
+}
+
+.multiselect-seperator {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  min-width: 100%;
+  position: relative;
+  max-width: -moz-min-content;
+}
+
+.muliti-sep-ds-none {
+  display: none;
+}
+
+.muliti-sep-place-holder .multi-sep-place-holder-span {
+  position: absolute;
+  padding-left: 7px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 70%;
+  display: inline-block;
+  cursor: default;
+  bottom: 14%;
+}
+
+.muliti-sep-visible-hidden {
+  visibility: hidden;
+  position: absolute;
+}
+
+.muliti-sep-place-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.muliti-sep-span-select-arrow {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #737373;
+  position: absolute;
+  left: 90%;
+  top: 40%;
+}
+
+.muliti-sep-preview span,
+.muliti-sep-preview {
+  color: #8e7b7b;
+}
+
